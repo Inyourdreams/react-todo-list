@@ -20,10 +20,6 @@ class App extends Component {
         }
       ]
     };
-    this.removeTodo = this.removeTodo.bind(this);
-    this.handleChange = this.handleChange.bind(this);
-    this.formSubmitted = this.formSubmitted.bind(this);
-    this.newTodoChanged = this.newTodoChanged.bind(this);
   }
 
   newTodoChanged = event => {
